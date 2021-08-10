@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    max-width: 320px;
+    
+}
+
+.button{
+    padding: 12px;
+    background-color: rgb(132, 97, 189);
+}
+
+/* buttons order */
+#one{order: 1;}
+#two{order: 2;}
+#three{order: 3;}
+#plus{order: 4;}
+
+#four{order: 5;}
+#five{order: 6;}
+#six{order: 7;}
+#minus{order: 8;}
+
+#seven{order: 9;}
+#eight{order: 10;}
+#nine{order: 11;}
+#multiply{order: 12;}
+
+#zero{order: 13;}
+#point{order: 14;}
+#equal{order: 15;}
+#division{order: 16;}
