@@ -27,6 +27,7 @@
     border: 1px solid gray;
     margin-bottom: 10px;
     background-color: white;
+    overflow: hidden;
 }
 
 .button{
@@ -70,7 +71,7 @@
 #nine{order: 11;}
 #multiply{order: 12;}
 
-#point{order: 13;}
+#clear{order: 13;}
 #zero{order: 14;}
 #equal{order: 15;}
 #division{order: 16;}
