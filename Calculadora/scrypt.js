@@ -18,8 +18,6 @@ buttons[13].addEventListener("click", changeDisplay);
 buttons[14].addEventListener("click", changeDisplay);
 buttons[15].addEventListener("click", changeDisplay);
 
-buttons.addEventListener("click", changeDisplay);
-
 function changeDisplay(){
     if(this.innerText == "="){
         display.innerHTML = eval(display.textContent);

@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    padding: 30px;
+}
+
 .Grid-container{
     max-width: 320px;
     display: grid;
