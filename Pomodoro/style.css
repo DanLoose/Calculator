@@ -8,6 +8,8 @@
 
 body{
     background-color: rgb(248, 207, 207);
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 #timer{
@@ -35,3 +37,21 @@ body{
     box-shadow: 2px 2px 4px rgb(85, 38, 38);
 }
 
+.mode{
+    width: 10px;
+    height: 10px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: rgb(26, 26, 26);
+}
+
+.dark-mode {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.mode-class{
+    background-color: rgb(248, 207, 207);
+}
